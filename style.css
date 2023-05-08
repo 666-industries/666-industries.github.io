@@ -10,3 +10,9 @@ html, body, header, #landing {
     background-size: cover;
 }
 
+.bumptag { 
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    font-family: helvetica-bold;
+}

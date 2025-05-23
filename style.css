@@ -13,8 +13,8 @@ html, body, header, #landing {
 .bumptag { 
     background-color: black;
     color: whitesmoke;
-    padding: 10px;
-    font-family: helvetica-bold;
+    padding: 25px;
+    font-family: orbitron-900;
 }
 
 // <weight>: Use a value from 400 to 900

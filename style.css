@@ -1,3 +1,13 @@
+// <weight>: Use a value from 400 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.orbitron-<uniquifier> {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 html, body, header, #landing {
     height: 100%;
 }
@@ -17,13 +27,12 @@ html, body, header, #landing {
     font-family: orbitron;
 }
 
-// <weight>: Use a value from 400 to 900
-// <uniquifier>: Use a unique and descriptive class name
-
-.orbitron-<uniquifier> {
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+.blink {
+  animation: blinker 1s step-start infinite;
 }
 
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
